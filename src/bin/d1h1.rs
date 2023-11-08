@@ -6,7 +6,6 @@ fn main() {
     
     let mut max_elf_calorie = 0;
     let mut current_elf_calorie = 0;
-    // let mut line_calorie = 0;
 
     for line in fs::read_to_string(file_name).unwrap().lines() {
         if line == "" {
