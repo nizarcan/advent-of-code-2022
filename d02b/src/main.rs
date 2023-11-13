@@ -1,7 +1,7 @@
 use std::{fs, collections::HashMap};
 
 fn main() {
-    let file_name = "d2data.txt";
+    let file_name = "../data/d02.txt";
     println!("reading file {file_name:?}");
 
     let game_map = HashMap::from([

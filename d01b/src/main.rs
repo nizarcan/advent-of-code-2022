@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let file_name = "d1data.txt";
+    let file_name = "../data/d01.txt";
     println!("reading file {file_name:?}");
 
     const ELF_COUNT: usize = 3;
